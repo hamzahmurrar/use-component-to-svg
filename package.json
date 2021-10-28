@@ -1,0 +1,68 @@
+{
+  "name": "@hmurrar/use-component-to-svg",
+  "version": "0.0.1",
+  "description": "Hooks to help react devs",
+  "author": "Hamzah Murrar",
+  "license": "Apache-2.0",
+  "repository": "hamzahmurrar/react-hook-npm-publish-boilerplate",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "react hooks",
+    "typescript",
+    "npm"
+  ],
+  "dependencies": {
+    "html-to-image": "^1.9.0",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.4.1",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.9.10",
+    "@types/react-dom": "^16.9.10",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "jest": "^27.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.13.1",
+    "rollup": "^2.58.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "ts-jest": "^27.0.0",
+    "typescript": "3.8.3"
+  }
+}
