@@ -44,8 +44,7 @@
     "npm"
   ],
   "dependencies": {
-    "html-to-image": "^1.9.0",
-    "prop-types": "^15.7.2"
+    "html-to-image": "^1.9.0"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.4.1",
