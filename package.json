@@ -1,10 +1,13 @@
 {
   "name": "@hmurrar/use-component-to-svg",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Hooks to help react devs",
   "author": "Hamzah Murrar",
   "license": "Apache-2.0",
-  "repository": "hamzahmurrar/react-hook-npm-publish-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate.git"
+  },
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
@@ -63,5 +66,9 @@
     "rollup-plugin-uglify": "^6.0.4",
     "ts-jest": "^27.0.0",
     "typescript": "3.8.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate#readme"
 }
