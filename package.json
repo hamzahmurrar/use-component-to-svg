@@ -1,6 +1,6 @@
 {
   "name": "@hmurrar/use-component-to-svg",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Hooks to help react devs",
   "author": "Hamzah Murrar",
   "license": "Apache-2.0",
