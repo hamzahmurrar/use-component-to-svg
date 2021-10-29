@@ -1,10 +1,9 @@
-import React from 'react';
 import { toSvg } from 'html-to-image';
 import { renderToString } from 'react-dom/server'
 
 export const getIcon = async (el: JSX.Element): Promise<string> => {
-  if (!el || React.isValidElement(el)) {
-    throw new Error('pass a valid JSX Element');
+  if (!el) {
+    return '';
   }
   const componentString = renderToString(el);
   const parser = new DOMParser();
