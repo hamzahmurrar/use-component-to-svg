@@ -1,12 +1,12 @@
 {
   "name": "@hmurrar/use-component-to-svg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hooks to help react devs",
   "author": "Hamzah Murrar",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate.git"
+    "url": "https://github.com/hamzahmurrar/use-component-to-svg"
   },
   "main": "dist/index.js",
   "engines": {
@@ -68,7 +68,7 @@
     "typescript": "3.8.3"
   },
   "bugs": {
-    "url": "https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate/issues"
+    "url": "https://github.com/hamzahmurrar/use-component-to-svg/issues"
   },
-  "homepage": "https://github.com/hamzahmurrar/react-hook-npm-publish-boilerplate#readme"
+  "homepage": "https://github.com/hamzahmurrar/use-component-to-svg#readme"
 }
